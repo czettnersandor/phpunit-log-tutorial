@@ -2,7 +2,7 @@
 require_once('Log.php');  
 class LogTest extends PHPUnit_TestCase  
 {
-	var $log;
+	private $log;
 	public function setUp(){
 		$this->log = new Log('/tmp/unittest.log');
 	}  
